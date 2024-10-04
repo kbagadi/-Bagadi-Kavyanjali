@@ -1,0 +1,38 @@
+// program to print digits in reverse order in a +ve integer number 
+
+#include <stdio.h>
+
+int main () {
+    int a,b,c,sum=0;
+    printf("enter any number to be reversed:");
+    scanf("%d",&c);
+    a=c;
+    printf("\n\n");
+    printf("after reversing:\n");
+    
+     while(a>=1){
+        b=a%10;
+        a=a/10;
+       printf("\n%d",b);
+    }
+    
+     return 0;
+}
+
+
+
+
+output:
+
+enter any number to be reversed:56789
+
+
+after reversing:
+
+9
+8
+7
+6
+5
+
+=== Code Execution Successful ===
